@@ -3,6 +3,7 @@
     src: url('/styles/Panic.ttf') format('truetype');
 }
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,7 +19,6 @@ header {
     display: flex;
     justify-content: center;
 }
-
 main {
     padding: 2rem;
 }
@@ -33,12 +33,6 @@ main {
     margin: 0 auto; /* Center the element horizontally */
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    #music {
-        grid-template-columns: 1fr;
-    }
-}
 
 .track {
     background-color: #4E6E58;
@@ -57,6 +51,7 @@ main {
     color: #232020;
     text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); /* Adjusted shadow */
 }
+
 
 .soundcloud-link {
     display: flex;
