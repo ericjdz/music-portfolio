@@ -1,7 +1,12 @@
 @font-face {
     font-family: 'Panic';
-    src: url('/styles/Panic.ttf') format('truetype');
+    src: url('/styles/Panic.woff2') format('woff2'),
+         url('/styles/Panic.woff') format('woff'),
+         url('/styles/Panic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 body {
     font-family: Arial, sans-serif;
