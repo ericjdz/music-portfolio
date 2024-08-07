@@ -44,6 +44,9 @@ main {
         grid-template-columns: 1fr;
         width: 100%;
     }
+    iframe {
+        height: 100%;
+    }
 }
 
 .track {
