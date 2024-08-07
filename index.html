@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <a href="https://soundcloud.com/nobibi" target="_blank" class="soundcloud-link">
+            <img src="images/SC-LOGO.png" alt="SoundCloud Profile" class="soundcloud-icon">
+            <span class="soundcloud-text">nobi</span>
+        </a>
+    </header>
+    <main>
+        <h1 id="name">made by NOBI</h1>
+        <section id="music">
+            <div class="track">
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" id="track1"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1860977493&color=%23879260&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                    <a href="https://soundcloud.com/nobibi" title="nobi" target="_blank" style="color: #cccccc; text-decoration: none;">nobi</a> · 
+                    <a href="https://soundcloud.com/nobibi/that-feeling" title="that feeling" target="_blank" style="color: #cccccc; text-decoration: none;">that feeling</a>
+                </div>
+            </div>
+            <div class="track">
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" id="track2"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1812686151&color=%23879260&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                    <a href="https://soundcloud.com/nobibi" title="nobi" target="_blank" style="color: #cccccc; text-decoration: none;">nobi</a> · 
+                    <a href="https://soundcloud.com/nobibi/cartier" title="cartier" target="_blank" style="color: #cccccc; text-decoration: none;">cartier</a>
+                </div>
+            </div>
+            <div class="track">
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" id="track3"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1584707055&color=%23879260&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                    <a href="https://soundcloud.com/nobibi" title="nobi" target="_blank" style="color: #cccccc; text-decoration: none;">nobi</a> · 
+                    <a href="https://soundcloud.com/nobibi/juice" title="juicey" target="_blank" style="color: #cccccc; text-decoration: none;">juicey</a>
+                </div>
+            </div>
+            <div class="track">
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" id="track4"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1566297856&color=%23879260&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                    <a href="https://soundcloud.com/nobibi" title="nobi" target="_blank" style="color: #cccccc; text-decoration: none;">nobi</a> · 
+                    <a href="https://soundcloud.com/nobibi/check-it" title="check it" target="_blank" style="color: #cccccc; text-decoration: none;">check it</a>
+                </div>
+            </div>
+            <!-- Add more tracks here -->
+        </section>
+    </main>
+    <footer>
+        <div class="volume-control">
+            <label for="volume-knob">Volume:</label>
+            <input type="range" id="volume-knob" min="0" max="100" value="50">
+        </div>
+        <div class="custom-controls">
+            <button id="play-btn">Play</button>
+            <button id="pause-btn">Pause</button>
+        </div>
+    </footer>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+    <script src="https://w.soundcloud.com/player/api.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
